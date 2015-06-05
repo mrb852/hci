@@ -1,0 +1,17 @@
+Øvelse 4
+
+1. PACT-analyse (People, activities, context, technology)
+4 overskrifter, og underpunkter
+
+2. Kerneopgaver
+De vigtigste activities (min 6.)
+
+3. Interview tjekliste (en række spørgsmål)
+
+- Introduktion i flydende tekst
+- Baggrundsoplysninger (navn, alder, stilling, specielt it-erfaring. Lav den i trappetrin)
+- Brug af bus i hverdagen. Hvad synes de om det nuværende system
+- Hvordan vil de forbedre det nye system.
+- Præsentation af nyt system (præcis samme introduktion, hvergang!)
+- Forslag mod det nye system.
+- Nysgerrige spørgsmål.

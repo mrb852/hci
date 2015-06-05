@@ -1,0 +1,81 @@
+\documentclass[12pt,a4paper,oneside]{article}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage[danish]{isodate}
+\usepackage{graphicx}
+\usepackage{color}
+
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\usepackage{listings}
+
+\setlength{\parindent}{0pt}
+
+\author{Bertram A. Nicolas, Christian Enevoldsen}
+
+\newcommand{\Opgn}{6}
+
+
+\lstset{
+  frame=tb,
+  language=ML,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{red},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=4
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{2.5em}
+\setlength{\headsep}{3em}
+\fancyhead[R]{\small \Opgn. hjemmeopgave; 2014 HCI \\
+Bertram André Nicolas \& Christian Enevoldsen}
+\renewcommand{\headrulewidth}{0pt}
+
+\fancyfoot[L]{\today}
+\fancyfoot[C]{\thepage}
+\fancyfoot[R]{}
+
+\renewcommand{\thesubsection}{}
+\renewcommand{\thesubsubsection}{$\bullet${}}
+\begin{document}
+
+\section*{Inspektion af websted inden test:}
+
+Brugergrænsefladen er god. Det var dog svært at finde mere end en oplevelse når man søgte specifik. F.eks. fandtes der intet musikrelateret på siden, hvilket ville få mig til at finde alternativer.\newline
+
+Det er dejlig nemt at finde informationer omkring køb og indløsning. Deres FAQ (ofte stillede spørgsmål) dækker alt, hvad der er brug for, og hvis det ikke er noteret der, kan man let bruge deres live chat og få svar på spørgsmål.\newline
+
+Angående filter funktionen, er det godt at den er der, men den er ikke helt gennemført. Det var svært at finde ud af hvad de forskellige celler repræsenterer, hvis man allerede har valgt noget. F.eks. består den af Vælg kategori, område og modtager. Vælger man smag, københavn og mand, kan man ikke se hvad der oprindeligt stod bagefter. Det kræver en reload af siden, hvilket jeg ser som dårlig UX.\newline
+
+Når man har valgt et produkt står der Anmeldelser i toppen. Fedt, man kan se hvad andre synes om produktet. (nej, det er nemlig dig der skal skrive en anmeldelse). Der skal man kunne se hvad andre synes om produktet, så man kan være mere tryg omkring et evt. køb.\newline
+
+
+Titlen "Hvor" og "Inkluderer" kan med fordel ændres til "Vigtig information" eller bare "Information", da det klart og tydeligt beskriver hvad der vil være under fanen, samt at det også samler informationerne, og derved kræver færre clicks.
+Farven på stjernerne burde ikke være en passiv farve. Det ser ud til at man selv skal give stjerner. I stedet burde de have brugt deres primære farve (orange) som fill color i stjernerne (mindre detalje).\newline
+
+Det er godt at der tydeligt står at man har 14 dages returret og 3 års gyldighed, når man er i bestillingsoversigten.\newline
+
+Når man er i "Min kurv" burde "Fjern oplevelsen" enten give en advarsel, eller være en mere destruktiv farve. F.eks. rød.\newline
+
+Når man skal betale, er det dejligt overskueligt, hvad processen er og hvilke oplysninger der er nødvendige, og det er endda muligt at gemme sine oplysninger ved at oprette sig som bruger. Det burde bare være hakket af som standard (mm. det er ulovligt)\newline
+
+Ang. fejlmeddelser: Indtastede to forskellige mails, og det var klart og tydeligt hvad jeg havde gjort forkert og hvad jeg skulle gøre for at fikse fejlen. Dog skrev jeg "fdas" i alle felter bagefter, hvilket ikke gav nogle fejl overhovedet. Der stod kun at jeg skulle acceptere betingelserne. OK. Jeg accepterer. Derefter klikkes på betal, hvorefter den sletter alt hvad jeg har skrevet og giver fejlen: "Tjek venligst de røde felter og prøv igen". Ja, de er tomme kan jeg se. Der burde den være lidt mere deskriptiv og i det mindste ikke slette alt hvad jeg har skrevet, hvilket er frustrerende for brugerne. Det er ikke alle der er lige hurtige på tastaturet.\newline
+
+Alt i alt er hjemmesiden OK, men der er plads til forbedringer. Især vedrørende deres fejlmeddelser. De kunne godt bruge lidt opmærksomhed.
+
+
+\end{document}

@@ -1,0 +1,184 @@
+\documentclass[12pt,a4paper,oneside]{article}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage[danish]{isodate}
+\usepackage{graphicx}
+\usepackage{color}
+
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\usepackage{listings}
+
+\setlength{\parindent}{0pt}
+
+\author{Bertram A. Nicolas, Christian Enevoldsen}
+
+\newcommand{\Opgn}{6}
+
+
+\lstset{
+  frame=tb,
+  language=ML,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{red},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=4
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{2.5em}
+\setlength{\headsep}{3em}
+\fancyhead[R]{\small \Opgn. hjemmeopgave; 2014 HCI \\
+Bertram André Nicolas \& Christian Enevoldsen}
+\renewcommand{\headrulewidth}{0pt}
+
+\fancyfoot[L]{\today}
+\fancyfoot[C]{\thepage}
+\fancyfoot[R]{}
+
+\renewcommand{\thesubsection}{}
+\renewcommand{\thesubsubsection}{$\bullet${}}
+\begin{document}
+
+\section*{Drejebog:}
+
+\subsection{1. Startbetingelser}
+\begin{itemize}
+\item{Brugeren skal sidde foran en computer der har et optage program der optager lyd fra en mikrofon og skærmen.
+}
+\item{Computeren skal sættes til at optage og så derefter vise siden "about:blank" i en "inkognito"-browser vindue.
+}
+
+\end{itemize}
+
+\subsection{2. Tjekliste til briefing}
+
+\begin{itemize}
+\item{Jeg er neutral - jeg har ikke deltaget i udviklingen af webstedet.}
+
+\item{Du skal ikke holde dig tilbage med kritik}
+\item{Vi tester ikke dig men webstedet}
+\item{Jeg vil bede dig at tænke højt under testen, så jeg kan følge med i de overvejelser, du gør dig.}
+\item{Jeg vil gerne have dine ufiltrerede kommentarer, både ris og ros. Alle kommentarer er interessante.}
+\item{Har du nogen spørgsmål?}
+\end{itemize}
+
+\subsection{3. Interview før testsession}
+
+\textbf{Personlige oplysninger}
+
+- Navn
+
+- Alder
+
+- Profession
+
+
+\subsection{4. Testopgaver}
+
+\begin{enumerate}
+
+\item{ Find hjemmesiden ud fra basale informationer}
+
+\textbf{Opgave:} Din ven har fået en faldskærmsudsprings oplevelse til sin fødselsdag, du ønsker selv samme oplevelse
+
+\textbf{Løst:} når testdeltageren har fundet oplevelsesgaver.dk
+
+\item{Find en oplevelse der passer til dig}
+
+\textbf{Opgave:} Find en oplevelse du kunne tænke dig at købe, den må maksimalt koste 500 kr.
+
+\textbf{Løst:} Når testdeltageren har fundet en oplevelse de synes om.
+
+\item{Find en oplevelse der passer til en ven}
+
+\textbf{Opgave:} Din bror/søster har fødselsdag, find en gave som passer til ham/hende
+
+\textbf{Løst:} Når testdeltageren har fundet en gave de mener passer deres bror/søster.
+
+\item{
+Find en oplevelse der passer til grupper på mere end 4 personer.}
+
+\textbf{Opgave:} Du har aftalt med dine venner at i skal ud og have en oplevelse. I er i hvert fald 4 der gerne vil med med sikkerhed. Find en oplevelse hvor i ale kan være med, og der ville være plads til flere.
+
+\textbf{Løst:} Når testdeltageren har fundet en oplevelse hvor man kan tage til som en samlet gruppe
+
+\item{Test af køb af oplevelses gave.}
+
+\textbf{Opgave:} Køb et gavekort som du godt kunne tænke dig, du har 500 kr, dette skal være gavekort på mail.
+
+\textbf{Løst:} Når testdeltageren har købt gavekortet.
+
+\item{Ombytning af oplevelsesgave}
+
+\textbf{Opgave:} Byt den oplevelse du lige har købt til den samme oplevelse
+
+\textbf{Løst:} Når testdeltageren har byttet oplevelsen.
+
+\item{Returnering af gavekortet}
+
+\textbf{Opgave:} Det viser sig at du desværre skal bruge pengene et andet sted, returner gavekortet.
+
+\textbf{Løst:} Når testdeltageren har returneret gavekortet - http://www.oplevelsesgaver.dk/kundehenvendelser/fortrydelsesret
+
+\item{Finde relevante oplysninger}
+
+\textbf{Opgave:} Din mor har fået oplevelsesgave til at ?, hun vil gerne vide om hun kan ?
+
+\textbf{Løst:} Når testdeltageren har fundet oplysningen
+
+\item{Finde relevant opgave}
+
+\textbf{Opgave:} Du skal give en oplevelse til en mand, som gerne vil have en smagsoplevelse i København
+
+\textbf{Løst:} Når kunden har fundet en oplevelse
+
+\item{Finde vigtige informationer omkring oplevelse/gavokort.}
+
+\textbf{Opgave:} Du har valgt at købe et vilkårligt gavekort. Hvor lang tid kan det indløses?
+
+\textbf{Løst:} når kunden har fundet ud af at man har 3 år.
+
+\item{Fortrydelsesret}
+
+\textbf{Opgave:} Du er i tvivl om en person vil gøre brug af en oplevelse. Hvad mange dages fortrydelsesret har man?
+
+\textbf{Løst:} Når kunden siger 14 dage.
+
+\item{Tryghed}
+
+\textbf{Opgave:} Du er skeptisk omkring hjemmesiden, og vil sikre dig at du kan handle trygt. Hvordan finder du ud af det?
+
+\textbf{Løst:} Når kunden har tjekket trustpilot eller e-mærket.
+
+\end{enumerate}
+
+\subsection{5. Interview efter test}
+
+\begin{itemize}
+
+\item{Har du før brugt en form for oplevelses gaver, enten fået som gave, eller givet til en anden?}
+\item{Hvilke 2-3 ting fungerer bedst på webstedet?}
+\item{Hvilke 2-3 ting trænger mest til at blive forbedret?}
+\item{Kunne du finde på at bruge oplevelsesgaver.dk?}
+\item{Har du før brugt en form for oplevelses gaver, enten fået som gave, eller givet til en anden?}
+\item{Hvilke 2-3 ting fungerer bedst på webstedet?}
+\item{Hvilke 2-3 ting trænger mest til at blive forbedret?}
+\item{Kunne du finde på at bruge oplevelsesgaver.dk?}
+
+\end{itemize}
+
+\end{document}
